@@ -11,5 +11,5 @@ jobs:
     - uses: php-actions/composer@v6 # or alternative dependency management
     - uses: php-actions/phpunit@v3
       with: 
-        - php_extensions: xdebug pdo mbstring xml curl sqlite3 pdo-sqlite gd
+        php_extensions: xdebug pdo mbstring xml curl sqlite3 pdo-sqlite gd
     # ... then your own project steps ...
